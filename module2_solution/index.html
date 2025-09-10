@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2_solution</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			margin-bottom: 15px;
+			text-align: center;
+			font-size: 30px;
+			color: blue;
+		}
+		p{
+			border: 1px solid black;
+			width: 90%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#card1{
+			background-color: greenyellow;
+		}
+		#card2{
+			background-color: darkred;
+		}
+		#card3{
+			background-color: skyblue;
+		}
+		@media (max-width: 767px) {
+			#card1, #card2, #card3{
+				position: relative;
+			}
+			#card1{
+				width: 33%;
+			}
+			#card2{
+				width: 33%;
+			}
+			#card3{
+				width: 33%;
+			}
+		}
+		@media (min-width: 992px) {
+			p{
+				float: left;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			#card1{
+				width: 31%;
+				color: white;
+			}
+			#card2{
+				width: 31%;
+				color: white;
+			}
+			#card3{
+				width: 31%;
+				color: white;
+
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			#card1, #card2, #card3{
+				float: left;
+				margin-right: 20px;
+				margin-left: 15px;
+			}
+			#card1{
+				width: 45%;
+			}
+			#card2{
+				width: 45%;
+			}
+			#card3{
+				width: 75%;
+				clear: left;
+				position: relative;
+				top: 30px;
+	     		left: 80px;
+	     	}
+	</style>
+</head>
+<body>
+<h1>OUR MENU</h1>
+<div>
+	<p id="card1">MONIOC <br>Le manioc (Manihot esculenta) est un tubercule originaire d'Amérique centrale et du Sud, cultivé dans les régions tropicales et subtropicales pour ses racines riches en amidon, qui sont un aliment de base important, notamment en Afrique. Il existe des variétés douces et amères, ces dernières devant être soigneusement détoxifiées avant consommation en raison de leur teneur en cyanure, un processus qui est réalisé par cuisson</p>
+	<p id="card2">ANANAS<br>Le manioc (Manihot esculenta) est un tubercule originaire d'Amérique centrale et du Sud, cultivé dans les régions tropicales et subtropicales pour ses racines riches en amidon, qui sont un aliment de base important, notamment en Afrique. Il existe des variétés douces et amères, ces dernières devant être soigneusement détoxifiées avant consommation en raison de leur teneur en cyanure, un processus qui est réalisé par cuisson</p>
+	<p id="card3">ORANGE<br>Le manioc (Manihot esculenta) est un tubercule originaire d'Amérique centrale et du Sud, cultivé dans les régions tropicales et subtropicales pour ses racines riches en amidon, qui sont un aliment de base important, notamment en Afrique. Il existe des variétés douces et amères, ces dernières devant être soigneusement détoxifiées avant consommation en raison de leur teneur en cyanure, un processus qui est réalisé par cuisson</p>
+</div>
+</body>
+</html>
